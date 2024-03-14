@@ -1,6 +1,0 @@
-"Output/Debug/Obj/Hello_world_jlink/main.o"
-"Output/Debug/Obj/Hello_world_jlink/riscv_crt0.o"
-"C:/Program Files/SEGGER/SEGGER Embedded Studio 8.10b/lib/libc_rv32ec_small.a"
-"C:/Program Files/SEGGER/SEGGER Embedded Studio 8.10b/lib/prinops_rtt_rv32ec_small.a"
-"C:/Program Files/SEGGER/SEGGER Embedded Studio 8.10b/lib/heapops_basic_rv32ec_small.a"
-"C:/Program Files/SEGGER/SEGGER Embedded Studio 8.10b/lib/heapops_disable_interrupts_locking_rv32ec_small.a"
