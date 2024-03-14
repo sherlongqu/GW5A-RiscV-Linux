@@ -1,0 +1,49 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Users\slg\WorkSpace\TangPrimer-25K\LicheeTang25k_VexRV_micro\gw_vex\src\LAKKA_new.v'
+Analyzing Verilog file 'C:\Users\slg\WorkSpace\TangPrimer-25K\LicheeTang25k_VexRV_micro\gw_vex\src\LAKKA_pack.sv'
+Analyzing Verilog file 'C:\Users\slg\WorkSpace\TangPrimer-25K\LicheeTang25k_VexRV_micro\gw_vex\src\gw_packer.v'
+Analyzing Verilog file 'C:\Users\slg\WorkSpace\TangPrimer-25K\LicheeTang25k_VexRV_micro\gw_vex\src\ram_module.v'
+Analyzing Verilog file 'C:\Users\slg\WorkSpace\TangPrimer-25K\LicheeTang25k_VexRV_micro\gw_vex\src\timer_simp_bus.v'
+Analyzing Verilog file 'C:\Users\slg\WorkSpace\TangPrimer-25K\LicheeTang25k_VexRV_micro\gw_vex\src\uart_tx_simp_bus.v'
+Compiling module 'gw_packer'("C:\Users\slg\WorkSpace\TangPrimer-25K\LicheeTang25k_VexRV_micro\gw_vex\src\gw_packer.v":1)
+Compiling module 'LAKKA_pack'("C:\Users\slg\WorkSpace\TangPrimer-25K\LicheeTang25k_VexRV_micro\gw_vex\src\LAKKA_pack.sv":1)
+Compiling module 'VexRiscv'("C:\Users\slg\WorkSpace\TangPrimer-25K\LicheeTang25k_VexRV_micro\gw_vex\src\LAKKA_new.v":9)
+Extracting RAM for identifier 'RegFilePlugin_regFile'("C:\Users\slg\WorkSpace\TangPrimer-25K\LicheeTang25k_VexRV_micro\gw_vex\src\LAKKA_new.v":1167)
+Compiling module 'StreamFifoLowLatency'("C:\Users\slg\WorkSpace\TangPrimer-25K\LicheeTang25k_VexRV_micro\gw_vex\src\LAKKA_new.v":6903)
+Compiling module 'StreamFifo'("C:\Users\slg\WorkSpace\TangPrimer-25K\LicheeTang25k_VexRV_micro\gw_vex\src\LAKKA_new.v":7100)
+Compiling module 'BufferCC'("C:\Users\slg\WorkSpace\TangPrimer-25K\LicheeTang25k_VexRV_micro\gw_vex\src\LAKKA_new.v":6884)
+Compiling module 'DebugModule'("C:\Users\slg\WorkSpace\TangPrimer-25K\LicheeTang25k_VexRV_micro\gw_vex\src\LAKKA_new.v":5883)
+Extracting RAM for identifier 'logic_progbufX_mem'("C:\Users\slg\WorkSpace\TangPrimer-25K\LicheeTang25k_VexRV_micro\gw_vex\src\LAKKA_new.v":6089)
+Compiling module 'DebugTransportModuleJtagTap'("C:\Users\slg\WorkSpace\TangPrimer-25K\LicheeTang25k_VexRV_micro\gw_vex\src\LAKKA_new.v":4880)
+Compiling module 'FlowCCByToggle'("C:\Users\slg\WorkSpace\TangPrimer-25K\LicheeTang25k_VexRV_micro\gw_vex\src\LAKKA_new.v":7036)
+Compiling module 'BufferCC_3'("C:\Users\slg\WorkSpace\TangPrimer-25K\LicheeTang25k_VexRV_micro\gw_vex\src\LAKKA_new.v":7243)
+Compiling module 'FlowCCByToggle_1'("C:\Users\slg\WorkSpace\TangPrimer-25K\LicheeTang25k_VexRV_micro\gw_vex\src\LAKKA_new.v":6950)
+Compiling module 'BufferCC_1'("C:\Users\slg\WorkSpace\TangPrimer-25K\LicheeTang25k_VexRV_micro\gw_vex\src\LAKKA_new.v":7219)
+Compiling module 'BufferCC_2'("C:\Users\slg\WorkSpace\TangPrimer-25K\LicheeTang25k_VexRV_micro\gw_vex\src\LAKKA_new.v":7195)
+WARN  (EX1998) : Net 'IBusSimplePlugin_decompressor_output_payload_rsp_error' does not have a driver("C:\Users\slg\WorkSpace\TangPrimer-25K\LicheeTang25k_VexRV_micro\gw_vex\src\LAKKA_new.v":537)
+WARN  (EX1998) : Net 'IBusSimplePlugin_rspJoin_fetchRsp_isRvc' does not have a driver("C:\Users\slg\WorkSpace\TangPrimer-25K\LicheeTang25k_VexRV_micro\gw_vex\src\LAKKA_new.v":636)
+Compiling module 'RAM_4kx32'("C:\Users\slg\WorkSpace\TangPrimer-25K\LicheeTang25k_VexRV_micro\gw_vex\src\ram_module.v":1)
+Extracting RAM for identifier 'core_mem'("C:\Users\slg\WorkSpace\TangPrimer-25K\LicheeTang25k_VexRV_micro\gw_vex\src\ram_module.v":16)
+Compiling module 'uart_tx_simp_bus'("C:\Users\slg\WorkSpace\TangPrimer-25K\LicheeTang25k_VexRV_micro\gw_vex\src\uart_tx_simp_bus.v":1)
+Compiling module 'timer_simp_bus'("C:\Users\slg\WorkSpace\TangPrimer-25K\LicheeTang25k_VexRV_micro\gw_vex\src\timer_simp_bus.v":1)
+NOTE  (EX0101) : Current top module is "gw_packer"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "C:\Users\slg\WorkSpace\TangPrimer-25K\LicheeTang25k_VexRV_micro\gw_vex\impl\gwsynthesis\gw_vex.vg" completed
+[100%] Generate report file "C:\Users\slg\WorkSpace\TangPrimer-25K\LicheeTang25k_VexRV_micro\gw_vex\impl\gwsynthesis\gw_vex_syn.rpt.html" completed
+GowinSynthesis finish

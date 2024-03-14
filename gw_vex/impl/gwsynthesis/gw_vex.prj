@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW5A-25A" package="MBGA121N" speed="1" partNumber="GW5A-LV25MG121NC1/I0"/>
+    <FileList>
+        <File path="C:\Users\slg\WorkSpace\TangPrimer-25K\LicheeTang25k_VexRV_micro\gw_vex\src\LAKKA_new.v" type="verilog"/>
+        <File path="C:\Users\slg\WorkSpace\TangPrimer-25K\LicheeTang25k_VexRV_micro\gw_vex\src\LAKKA_pack.sv" type="verilog"/>
+        <File path="C:\Users\slg\WorkSpace\TangPrimer-25K\LicheeTang25k_VexRV_micro\gw_vex\src\gw_packer.v" type="verilog"/>
+        <File path="C:\Users\slg\WorkSpace\TangPrimer-25K\LicheeTang25k_VexRV_micro\gw_vex\src\ram_module.v" type="verilog"/>
+        <File path="C:\Users\slg\WorkSpace\TangPrimer-25K\LicheeTang25k_VexRV_micro\gw_vex\src\timer_simp_bus.v" type="verilog"/>
+        <File path="C:\Users\slg\WorkSpace\TangPrimer-25K\LicheeTang25k_VexRV_micro\gw_vex\src\uart_tx_simp_bus.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="C:\Users\slg\WorkSpace\TangPrimer-25K\LicheeTang25k_VexRV_micro\gw_vex\impl\gwsynthesis\gw_vex.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="0"/>
+        <Option type="verilog_language" value="verilog-2001"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>

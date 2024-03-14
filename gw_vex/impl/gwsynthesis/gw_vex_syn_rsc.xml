@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="gw_packer" Lut="1">
+ <SubModule name="cpu" Register="13" Lut="93">
+  <SubModule name="cpu" Register="853" Alu="230" Lut="1295" Ssram="16">
+   <SubModule name="IBusSimplePlugin_rspJoin_rspBuffer_c">
+    <SubModule name="fifo" Register="33" Lut="22"/>
+   </SubModule>
+   <SubModule name="reset_buffercc" Register="2"/>
+   <SubModule name="debugModule_1" Register="133" Lut="198" Ssram="8"/>
+   <SubModule name="debugTransportModuleJtagTap_1" Register="197" Lut="118">
+    <SubModule name="logic_jtagLogic_dmiCmd_ccToggle" Register="42" Lut="3">
+     <SubModule name="inputArea_target_buffercc" Register="2"/>
+    </SubModule>
+    <SubModule name="logic_systemLogic_bus_rsp_ccToggle" Register="67" Lut="2">
+     <SubModule name="bufferCC_4" Register="2"/>
+     <SubModule name="inputArea_target_buffercc" Register="2"/>
+    </SubModule>
+   </SubModule>
+  </SubModule>
+  <SubModule name="mem" Lut="8" Bsram="8"/>
+ </SubModule>
+ <SubModule name="uart_tx" Register="55" Alu="30" Lut="32"/>
+ <SubModule name="timer" Register="96" Alu="46" Lut="54"/>
+</Module>
