@@ -77,6 +77,7 @@ assign iBus_resp = mem_do;
 
 always @(posedge clk or posedge reset) begin
     if(reset) begin
+
         iBus_resp_valid <= 0;
 
         dBus_resp_valid <= 0;

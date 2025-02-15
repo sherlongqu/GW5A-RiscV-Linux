@@ -1,9 +1,9 @@
--d C:\Users\slg\WorkSpace\TangPrimer-25K\LicheeTang25k_VexRV_micro\gw_vex\impl\gwsynthesis\gw_vex.vg
+-d C:\Users\slg\WorkSpace\TangPrimer-25K\GW5A-RiscV-Linux\gw_vex\impl\gwsynthesis\gw_vex.vg
 -p GW5A-25A-MBGA121N-1
 -pn GW5A-LV25MG121NC1/I0
--cst C:\Users\slg\WorkSpace\TangPrimer-25K\LicheeTang25k_VexRV_micro\gw_vex\src\gw_vex.cst
--cfg C:\Users\slg\WorkSpace\TangPrimer-25K\LicheeTang25k_VexRV_micro\gw_vex\impl\pnr\device.cfg
--sdc C:\Users\slg\WorkSpace\TangPrimer-25K\LicheeTang25k_VexRV_micro\gw_vex\src\gw_vex.sdc
+-cst C:\Users\slg\WorkSpace\TangPrimer-25K\GW5A-RiscV-Linux\gw_vex\src\gw_vex.cst
+-cfg C:\Users\slg\WorkSpace\TangPrimer-25K\GW5A-RiscV-Linux\gw_vex\impl\pnr\device.cfg
+-sdc C:\Users\slg\WorkSpace\TangPrimer-25K\GW5A-RiscV-Linux\gw_vex\src\gw_vex.sdc
 -bit
 -tr
 -ph

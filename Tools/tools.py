@@ -2,6 +2,8 @@ import os
 import sys
 import time
 
+folder_path = "./"
+
 class fileLocator():
 
     path = str()
@@ -44,16 +46,30 @@ class UI():
 
     def cil_ui(self):
         while(True):
-            byte_file = input("Enter the byte file: ")
-            hex_file = input("Enter the hex file: ")
+            file_names = [file 
+                          for file in os.listdir(folder_path)
+                          if os.path.isfile(os.path.join(folder_path, file))]
+            bin_files = [file
+                         for file in file_names
+                         if file.endswith(".bin")]
+            if len(bin_files) == 0:
+                print("No .bin files found in the current directory")
+                byte_file = input("Enter the byte file: ")
+            elif len(bin_files) == 1:
+                byte_file = bin_files[0]
+            else:
+                print("Multiple .bin files found in the current directory")
+                byte_file = input("Enter the byte file: ")
+            
+            file_name = byte_file.split(".")[0]
+            hex_file = file_name + ".hex"
 
             convertByteToHex().convert_byte_to_hex(byte_file, hex_file)
 
-            print("Conversion complete")
-
-            cont = input("Do you want to convert another file? (y/n): ")
-            if cont.lower() != 'y':
-                break
+            print(f"Operate\t:\t{byte_file} -> {hex_file}")
+            print("Status\t:\tSeccess\n")
+            
+            return 0
 
 def main():
     UI().cil_ui()

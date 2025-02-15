@@ -17,7 +17,7 @@
     "SubInsts" : [
      {
       "InstFile" : "C:/Users/slg/WorkSpace/TangPrimer-25K/GW5A-RiscV-Linux/gw_vex/src/LAKKA_pack.sv",
-      "InstLine" : 99,
+      "InstLine" : 100,
       "InstName" : "cpu",
       "ModuleFile" : "C:/Users/slg/WorkSpace/TangPrimer-25K/GW5A-RiscV-Linux/gw_vex/src/LAKKA_new.v",
       "ModuleLine" : 9,
@@ -115,7 +115,7 @@
      },
      {
       "InstFile" : "C:/Users/slg/WorkSpace/TangPrimer-25K/GW5A-RiscV-Linux/gw_vex/src/LAKKA_pack.sv",
-      "InstLine" : 133,
+      "InstLine" : 134,
       "InstName" : "mem",
       "ModuleFile" : "C:/Users/slg/WorkSpace/TangPrimer-25K/GW5A-RiscV-Linux/gw_vex/src/ram_module.v",
       "ModuleLine" : 1,

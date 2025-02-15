@@ -13,6 +13,11 @@
   <ProjectSessionItem path="Hello_world;Hello_world_jlink"/>
   <ProjectSessionItem path="Hello_world;Hello_world_jlink;Setup"/>
   <ProjectSessionItem path="Hello_world;Hello_world_jlink;Source"/>
+  <ProjectSessionItem path="Hello_world;Hello_world_jlink;System"/>
+  <ProjectSessionItem path="Hello_world;Hello_world_openocd"/>
+  <ProjectSessionItem path="Hello_world;Hello_world_openocd;Setup"/>
+  <ProjectSessionItem path="Hello_world;Hello_world_openocd;Source"/>
+  <ProjectSessionItem path="Hello_world;Hello_world_openocd;System"/>
  </Project>
  <Register1/>
  <Register2/>
@@ -37,7 +42,22 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="12" y="118" useTextEdit="1" path="Source/main.c" left="0" selected="1" top="101" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="38" y="120" useTextEdit="1" path="Source/main.c" left="0" selected="1" top="108" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="7" y="25" useTextEdit="1" path="Setup/sram_placement_riscv.xml" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="13" y="88" useTextEdit="1" path="System/riscv_crt0.s" left="0" top="360" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="C:/Program Files/SEGGER/SEGGER Embedded Studio 8.10b/include/__SEGGER_RTL_Conf.h" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="C:/Program Files/SEGGER/SEGGER Embedded Studio 8.10b/include/__SEGGER_RTL_ConfDefaults.h" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="24" y="134" useTextEdit="1" path="C:/Program Files/SEGGER/SEGGER Embedded Studio 8.10b/include/__SEGGER_RTL_RISCV_Conf.h" left="0" top="106" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="52" y="289" useTextEdit="1" path="C:/Program Files/SEGGER/SEGGER Embedded Studio 8.10b/include/stdint.h" left="0" top="288" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="14" y="110" useTextEdit="1" path="C:/Program Files/SEGGER/SEGGER Embedded Studio 8.10b/include/stdio.h" left="0" top="110" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="37" y="81" useTextEdit="1" path="C:/Program Files/SEGGER/SEGGER Embedded Studio 8.10b/include/string.h" left="0" top="81" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="28" y="102" path="Output/Debug/Obj/Hello_world_jlink/main.o" left="0" top="87" codecName=""/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="19" y="15" useTextEdit="1" path="../Hello_world_openocd/Source/main.c" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="26" y="51" useTextEdit="1" path="../Hello_world_openocd/System/riscv_crt0.s" left="0" top="23" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="38" y="16" useTextEdit="1" path="C:/Program Files/SEGGER/SEGGER Embedded Studio 8.10b/include/__SEGGER_RTL.h" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="C:/Program Files/SEGGER/SEGGER Embedded Studio 8.10b/include/stdlib.h" left="0" top="129" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="33" y="62" path="Output/Debug/Obj/Hello_world_jlink/riscv_crt0.o" left="0" top="62" codecName=""/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="29" y="16" useTextEdit="1" path="../Hello_world_openocd/Setup/sram_placement_riscv.xml" left="0" top="0" codecName="Default"/>
  </Files>
  <EMStudioWindow activeProject="Hello_world_jlink" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="3199"/>
 </session>

@@ -5,34 +5,34 @@
 1. PnR Messages
 
   <Report Title>: PnR Report
-  <Design File>: C:\Users\slg\WorkSpace\TangPrimer-25K\LicheeTang25k_VexRV_micro\gw_vex\impl\gwsynthesis\gw_vex.vg
-  <Physical Constraints File>: C:\Users\slg\WorkSpace\TangPrimer-25K\LicheeTang25k_VexRV_micro\gw_vex\src\gw_vex.cst
-  <Timing Constraints File>: C:\Users\slg\WorkSpace\TangPrimer-25K\LicheeTang25k_VexRV_micro\gw_vex\src\gw_vex.sdc
+  <Design File>: C:\Users\slg\WorkSpace\TangPrimer-25K\GW5A-RiscV-Linux\gw_vex\impl\gwsynthesis\gw_vex.vg
+  <Physical Constraints File>: C:\Users\slg\WorkSpace\TangPrimer-25K\GW5A-RiscV-Linux\gw_vex\src\gw_vex.cst
+  <Timing Constraints File>: C:\Users\slg\WorkSpace\TangPrimer-25K\GW5A-RiscV-Linux\gw_vex\src\gw_vex.sdc
   <PnR Version>: V1.9.9 Beta-4 Education
   <Part Number>: GW5A-LV25MG121NC1/I0
   <Device>: GW5A-25
   <Device Version>: A
-  <Created Time>:Thu Mar 14 17:53:02 2024
+  <Created Time>:Sun Mar 31 03:15:41 2024
 
 
 2. PnR Details
 
   Running placement:
-    Placement Phase 0: CPU time = 0h 0m 0.456s, Elapsed time = 0h 0m 0.449s
-    Placement Phase 1: CPU time = 0h 0m 0.266s, Elapsed time = 0h 0m 0.263s
-    Placement Phase 2: CPU time = 0h 0m 0.911s, Elapsed time = 0h 0m 0.91s
+    Placement Phase 0: CPU time = 0h 0m 0.44s, Elapsed time = 0h 0m 0.442s
+    Placement Phase 1: CPU time = 0h 0m 0.267s, Elapsed time = 0h 0m 0.263s
+    Placement Phase 2: CPU time = 0h 0m 0.896s, Elapsed time = 0h 0m 0.903s
     Placement Phase 3: CPU time = 0h 0m 2s, Elapsed time = 0h 0m 2s
     Total Placement: CPU time = 0h 0m 3s, Elapsed time = 0h 0m 3s
  Running routing:
     Routing Phase 0: CPU time = 0h 0m 0s, Elapsed time = 0h 0m 0.001s
     Routing Phase 1: CPU time = 0h 0m 2s, Elapsed time = 0h 0m 2s
-    Routing Phase 2: CPU time = 0h 0m 0.062s, Elapsed time = 0h 0m 0.067s
+    Routing Phase 2: CPU time = 0h 0m 0.063s, Elapsed time = 0h 0m 0.067s
     Routing Phase 3: CPU time = 0h 0m 0s, Elapsed time = 0h 0m 0s
     Total Routing: CPU time = 0h 0m 2s, Elapsed time = 0h 0m 2s
  Generate output files:
     CPU time = 0h 0m 3s, Elapsed time = 0h 0m 3s
 
- Total Time and Memory Usage: CPU time = 0h 0m 8s, Elapsed time = 0h 0m 8s, Peak memory usage = 352MB
+ Total Time and Memory Usage: CPU time = 0h 0m 8s, Elapsed time = 0h 0m 8s, Peak memory usage = 384MB
 
 
 3. Resource Usage Summary
@@ -214,7 +214,7 @@ A10/6    | -          | in    | IOL14[B] | LVCMOS33 | 8     | UP        | OFF   
 C1/10    | -          | in    | IOR1[A]  | LVCMOS33 | 8     | UP        | OFF       | ON         | OFF        | OFF        | OFF             | OFF           | 3.3   | MEDIUM       
 A3/10    | -          | in    | IOR1[B]  | LVCMOS33 | 8     | UP        | OFF       | ON         | OFF        | OFF        | OFF             | OFF           | 3.3   | MEDIUM       
 B1/10    | -          | in    | IOR3[A]  | LVCMOS33 | 8     | UP        | OFF       | ON         | OFF        | OFF        | OFF             | OFF           | 3.3   | MEDIUM       
-A2/10    | -          | in    | IOR3[B]  | LVCMOS33 | 8     | UP        | OFF       | ON         | OFF        | OFF        | OFF             | OFF           | 3.3   | MEDIUM       
+A2/10    | -          | out   | IOR3[B]  | LVCMOS33 | 8     | UP        | OFF       | OFF        | OFF        | OFF        | OFF             | OFF           | 3.3   | MEDIUM       
 L2/2     | -          | in    | IOR18[A] | LVCMOS33 | 8     | UP        | OFF       | ON         | OFF        | OFF        | OFF             | OFF           | 3.3   | MEDIUM       
 L1/2     | -          | in    | IOR18[B] | LVCMOS33 | 8     | UP        | OFF       | ON         | OFF        | OFF        | OFF             | OFF           | 3.3   | MEDIUM       
 K1/2     | -          | in    | IOR20[A] | LVCMOS33 | 8     | UP        | OFF       | ON         | OFF        | OFF        | OFF             | OFF           | 3.3   | MEDIUM       
