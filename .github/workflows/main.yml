@@ -1,0 +1,15 @@
+name: Download Docker Image
+on: [workflow_dispatch]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pull and Save
+        run: |
+          docker pull lejianwen/rustdesk-api:latest
+          docker save lejianwen/rustdesk-api:latest > rustdesk-api.tar
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: docker-image
+          path: rustdesk-api.tar
