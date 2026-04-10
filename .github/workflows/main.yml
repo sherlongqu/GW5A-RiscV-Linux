@@ -1,15 +1,22 @@
 name: Download Docker Image
+
 on: [workflow_dispatch]
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Pull and Save
         run: |
-          docker pull lejianwen/rustdesk-api:latest
-          docker save lejianwen/rustdesk-api:latest > rustdesk-api.tar
+          # 拉取你需要的 full-s6 镜像
+          docker pull lejianwen/rustdesk-api:full-s6
+          
+          # 保存并压缩，这样文件体积会小很多（约从 400MB 减小到 150MB）
+          docker save lejianwen/rustdesk-api:full-s6 | gzip > rustdesk-api-full-s6.tar.gz
+
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: docker-image
-          path: rustdesk-api.tar
+          name: rustdesk-image
+          path: rustdesk-api-full-s6.tar.gz
+          retention-days: 1  # 产物仅保留1天，节省空间
